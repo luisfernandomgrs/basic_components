@@ -21,11 +21,72 @@
         android:layout_height="wrap_content">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/txtMail"
+            android:id="@+id/_txtMail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#0C4FD338"
             android:hint="@string/portugueseTypeItHere_email"
             android:inputType="textEmailAddress" />
     </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/_txtSportsPreference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/portugueseSportsPreference" />
+
+    <CheckBox
+        android:id="@+id/cbxSportsDesc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/portugueseSportsDesc1" />
+
+    <CheckBox
+        android:id="@+id/cbxSportsDesc2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/portugueseSportsDesc2" />
+
+    <CheckBox
+        android:id="@+id/cbxSportsDesc3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/portugueseSportsDesc3" />
+
+    <TextView
+        android:id="@+id/txtSexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/portugueseSex" />
+
+    <RadioGroup
+        android:id="@+id/radioGrpSexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbtnSexMale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/portugueseSexMale" />
+
+        <RadioButton
+            android:id="@+id/rbtnSexFemale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/portugueseSexFemale" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/_btnSendForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="fnSendMessage"
+        android:text="@string/portugueseButtonSendMessageStart" />
+
+    <TextView
+        android:id="@+id/_txtStatusMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
 </LinearLayout>
