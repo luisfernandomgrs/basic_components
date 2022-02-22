@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BasicsComponents</string>
+    <string name="app_title">Componentes Básicos</string>
+    <string name="portugueseTypeItHere_name">Digite seu nome</string>
+    <string name="portugueseTypeItHere_email">Digite seu e-mail</string>
+</resources>
